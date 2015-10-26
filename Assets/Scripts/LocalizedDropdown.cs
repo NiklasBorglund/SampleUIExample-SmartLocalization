@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using SmartLocalization;
 
+#if UNITY_5_2
 [RequireComponent(typeof(Dropdown))]
 public class LocalizedDropdown : MonoBehaviour {
 	public List<Dropdown.OptionData> optionData = new List<Dropdown.OptionData>();
@@ -31,3 +32,4 @@ public class LocalizedDropdown : MonoBehaviour {
 		}
 	}
 }
+#endif
