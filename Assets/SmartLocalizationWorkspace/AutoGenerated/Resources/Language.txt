@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Audio.Close" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="Audio.Settings.MasterVolume" xml:space="preserve">
+		<value>Master Volume</value>
+	</data>
+	<data name="Audio.Settings.Music" xml:space="preserve">
+		<value>Music</value>
+	</data>
+	<data name="Audio.Settings.Sfx" xml:space="preserve">
+		<value>SFX</value>
+	</data>
+	<data name="Audio.Title" xml:space="preserve">
+		<value>Audio</value>
+	</data>
+	<data name="Controls.Button" xml:space="preserve">
+		<value>Button</value>
+	</data>
+	<data name="Controls.InputArea.PlaceHolder" xml:space="preserve">
+		<value>Enter text...</value>
+	</data>
+	<data name="Controls.InputField.PlaceHolder" xml:space="preserve">
+		<value>Enter text...</value>
+	</data>
+	<data name="Controls.ScrollView.Content" xml:space="preserve">
+		<value>A Scroll Rect is usually used to scroll a large image or panel of another UI element, such as a list of buttons or large block of text. The Scroll Rect is most often used with a mask element, and is designed to work seamlessly with scrollbars.
+
+To scroll content, the input must be received from inside the bounds of the ScrollRect, not on the content itself.
+
+The Scroll Rect is commonly used with a mask element. Add an image script for the mask to use, and then add a mask script. The mask elements will use the image to create its mask. A specific image is not needed on the image script, but one can be added for additional control over the shape of the mask.
+
+Take care when using Unrestricted scrolling movement as it is possible to lose control of the content in an irretrievable way. When using Elastic or Constrained movement it is best to position the content so that it starts within the bounds of the ScrollRect, or undesirable behaviour may occur as the RectTransform tries to bring the content back within its bounds.</value>
+	</data>
+	<data name="Controls.ScrollView.Title" xml:space="preserve">
+		<value>Scroll View</value>
+	</data>
+	<data name="Controls.Text" xml:space="preserve">
+		<value>New Text</value>
+	</data>
+	<data name="Controls.Toggle" xml:space="preserve">
+		<value>Toggle</value>
+	</data>
+	<data name="Controls.ToggleGroup.OptionA" xml:space="preserve">
+		<value>Option A</value>
+	</data>
+	<data name="Controls.ToggleGroup.OptionB" xml:space="preserve">
+		<value>Option B</value>
+	</data>
+	<data name="Controls.ToggleGroup.OptionC" xml:space="preserve">
+		<value>Option C</value>
+	</data>
+	<data name="DragAndDrop.DragFromHere" xml:space="preserve">
+		<value>Drag From Here</value>
+	</data>
+	<data name="DragAndDrop.DropAreaOne" xml:space="preserve">
+		<value>Drop Area 1</value>
+	</data>
+	<data name="DragAndDrop.DropAreaTwo" xml:space="preserve">
+		<value>Drop Area 2</value>
+	</data>
+	<data name="DraggablePanel.Panel.Content" xml:space="preserve">
+		<value>Drag the title area to move the window.
+
+Drag the lower right corner to resize the window.</value>
+	</data>
+	<data name="DraggablePanel.Panel.Title" xml:space="preserve">
+		<value>Panel</value>
+	</data>
+	<data name="DraggablePanel.TogglePanel" xml:space="preserve">
+		<value>Toggle Panel</value>
+	</data>
+	<data name="Gameplay.Close" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="Gameplay.Settings.Difficulty" xml:space="preserve">
+		<value>Difficulty</value>
+	</data>
+	<data name="Gameplay.Settings.MouseScroll" xml:space="preserve">
+		<value>Mouse Scroll</value>
+	</data>
+	<data name="Gameplay.Settings.MovementSpeed" xml:space="preserve">
+		<value>Movement Speed</value>
+	</data>
+	<data name="Gameplay.Settings.PermaDeath" xml:space="preserve">
+		<value>Perma Death</value>
+	</data>
+	<data name="Gameplay.Title" xml:space="preserve">
+		<value>GamePlay</value>
+	</data>
+	<data name="Language.Close" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="Language.Settings.English" xml:space="preserve">
+		<value>English</value>
+	</data>
+	<data name="Language.Settings.Swedish" xml:space="preserve">
+		<value>Swedish</value>
+	</data>
+	<data name="Language.Title" xml:space="preserve">
+		<value>Language</value>
+	</data>
+	<data name="LayoutGroups.Cancel" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="LayoutGroups.OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="LayoutGroups.Title" xml:space="preserve">
+		<value>Grid</value>
+	</data>
+	<data name="Lighting.Blue" xml:space="preserve">
+		<value>Blue</value>
+	</data>
+	<data name="Lighting.Content" xml:space="preserve">
+		<value>This example shows how to set up a UI that's affected by light sources, giving you the ability to add an extra bit of detail and the feeling of depth to your UI.
+
+Don't forget to add light sources!
+
+Some elements are affected by the light. Others are not. It all depends on the material used by the graphic elements.</value>
+	</data>
+	<data name="Lighting.Green" xml:space="preserve">
+		<value>Green</value>
+	</data>
+	<data name="Lighting.Red" xml:space="preserve">
+		<value>Red</value>
+	</data>
+	<data name="Lighting.Title" xml:space="preserve">
+		<value>Lit User Interface</value>
+	</data>
+	<data name="MainMenu.Continue" xml:space="preserve">
+		<value>Continue</value>
+	</data>
+	<data name="MainMenu.NewGame" xml:space="preserve">
+		<value>New Game</value>
+	</data>
+	<data name="MainMenu.Quit" xml:space="preserve">
+		<value>Quit</value>
+	</data>
+	<data name="MainMenu.Settings" xml:space="preserve">
+		<value>Settings</value>
+	</data>
+	<data name="MainMenu.Title" xml:space="preserve">
+		<value>GUI Demo</value>
+	</data>
+	<data name="RenderTextures.Content" xml:space="preserve">
+		<value>The Raw Image to the right is being constantly updated by a camera rendering into the Render Texture that it uses!</value>
+	</data>
+	<data name="RenderTextures.Title" xml:space="preserve">
+		<value>Render Textures</value>
+	</data>
+	<data name="Settings.Audio" xml:space="preserve">
+		<value>Audio</value>
+	</data>
+	<data name="Settings.Back" xml:space="preserve">
+		<value>Back</value>
+	</data>
+	<data name="Settings.Gameplay" xml:space="preserve">
+		<value>Gameplay</value>
+	</data>
+	<data name="Settings.Language" xml:space="preserve">
+		<value>Language</value>
+	</data>
+	<data name="Settings.Title" xml:space="preserve">
+		<value>Settings</value>
+	</data>
+	<data name="Settings.Video" xml:space="preserve">
+		<value>Video</value>
+	</data>
+	<data name="Video.Close" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="Video.Settings.AntiAliasing" xml:space="preserve">
+		<value>Anti-Aliasing</value>
+	</data>
+	<data name="Video.Settings.MouseScrollToggle" xml:space="preserve">
+		<value>AO</value>
+	</data>
+	<data name="Video.Settings.Quality" xml:space="preserve">
+		<value>Quality</value>
+	</data>
+	<data name="Video.Settings.ViewDistance" xml:space="preserve">
+		<value>View Distance</value>
+	</data>
+	<data name="Video.Title" xml:space="preserve">
+		<value>Video</value>
+	</data>
+	<data name="Controls.Dropdown.OptionOne" xml:space="preserve">
+		<value>Option 1</value>
+	</data>
+	<data name="Controls.Dropdown.OptionTwo" xml:space="preserve">
+		<value>Option 2</value>
+	</data>
+</root>

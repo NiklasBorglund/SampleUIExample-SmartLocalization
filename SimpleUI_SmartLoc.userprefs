@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeLanguageOnClick.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PanelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ChangeLanguageOnClick.cs" Line="23" Column="67" />
+      <File FileName="Assets/Scripts/ChangeLanguageDebugScript.cs" Line="29" Column="86" />
+      <File FileName="Assets/SmartLocalization/Examples/LoadAllLanguages.cs" Line="21" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
