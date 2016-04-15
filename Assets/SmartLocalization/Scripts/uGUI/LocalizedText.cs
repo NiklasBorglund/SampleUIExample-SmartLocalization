@@ -1,5 +1,4 @@
-﻿#if UNITY_4_6 || UNITY_5_0 || UNITY_5_1 || UNITY_5_2
-namespace SmartLocalization.Editor
+﻿namespace SmartLocalization.Editor
 {
 using UnityEngine;
 using UnityEngine.UI;
@@ -37,4 +36,3 @@ public class LocalizedText : MonoBehaviour
 	}
 }
 }
-#endif
